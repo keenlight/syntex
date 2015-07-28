@@ -12,7 +12,8 @@ public class Rules {
 	private Map<String, List<Rule>> map = new HashMap<String, List<Rule>>();
 
 	/**
-	 * param_list -> id param_list_tail param_list_tail -> , id param_list_tail
+	 * param_list -> id param_list_tail 
+	 * param_list_tail -> , id param_list_tail
 	 * param_list_tail -> ;
 	 */
 	public Rules() {
